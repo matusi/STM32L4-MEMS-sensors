@@ -22,12 +22,17 @@ The Source files contains the implementation for the sensors driver APIs.
 
 - #### ADXL355 Accelerometer 
 
-- 2-3.6V Supply
-- ±250/500/1000/2000°/s configurable range
-- Output Data Rates (ODR) from 12.5 to 800 Hz
-- 16-bit digital output resolution
-- 192 bytes FIFO buffer (32 X/Y/Z samples)
+- 2.25 V to 3.6 V Supply
+- Integrated temperature sensor
+- ±2, ±4, ±8 g configurable range
+- Output Data Rates (ODR) from 3.906 to 4000 Hz 
+- 20-bit digital output resolution
+-   96 locations of 20 bit FIFO buffer (X/Y/Z samples)
+- Programmable high- and low-pass digital filters
 
+Voltage range options
+VSUPPLY with internal regulators: 2.25 V to 3.6 V
+V1P8ANA, V1P8DIG with internal LDO regulator bypassed: 1.8 V typical ± 10%
 
 The ADXL355 [4] from Analog Circuits is a low power and low noise accelerometer it
 can be set to measure in the ranges ±2g, ±4g, ±8g and the ADC belonging to the sensor is
