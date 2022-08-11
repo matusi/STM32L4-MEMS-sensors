@@ -29,19 +29,6 @@ The Source files contains the implementation for the sensors driver APIs.
 - 20-bit digital output resolution
 -   96 locations of 20 bit FIFO buffer (X/Y/Z samples)
 - Programmable high- and low-pass digital filters
-
-Voltage range options
-VSUPPLY with internal regulators: 2.25 V to 3.6 V
-V1P8ANA, V1P8DIG with internal LDO regulator bypassed: 1.8 V typical ± 10%
-
-The ADXL355 [4] from Analog Circuits is a low power and low noise accelerometer it
-can be set to measure in the ranges ±2g, ±4g, ±8g and the ADC belonging to the sensor is
-20 − bit. If the IMU is set to measure up to 8g the accuracy wouldnt be high but it would
-be able to measure bigger forces. But if its set to 2g the accuracy would be high but the
-20
-forces measured is low. To use the accelerometer effectively you must know how high
-forces your object is exposed to.
-
 -#### Supported sensor interface
 - ADXL355 driver supports SPI and I2C interfaces
 
