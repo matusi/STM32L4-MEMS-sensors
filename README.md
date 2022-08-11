@@ -6,26 +6,27 @@
 
 This package contains MEMS sensor driver (sensor API) 
 
+## Driver files information
+### Header files
 
-
-
-
-
-Driver files information
-bmg160.h
-This header file has the register address definition, constant definitions, data type definition and supported sensor driver calls declarations.
-bmg160.c
-This file contains the implementation for the sensor driver APIs.
-bmg160_support.c
-This file shall be used as an user guidance, here you can find samples of * Initialize the sensor with I2C/SPI communication - Add your code to the SPI and/or I2C bus read and bus write functions. - Return value can be chosen by yourself - API just passes that value to your application code - Add your code to the delay function - Change I2C address accordingly in bmg160.h
-Power mode configuration of the sensor
-Get and set functions usage
-Reading the sensor read out data
+The headers file has the registers address definitions, constants definitions, data types definitions and supported sensor driver calls declarations.
+### Source files 
+The Source files contains the implementation for the sensors driver APIs.
+1. Initialize the sensor with I2C/SPI communication - Add your code to the SPI and/or I2C bus read and bus write functions. - Return value can be chosen by yourself - API just passes that value to your application code - Add your code to the delay function - Change I2C address accordingly in bmg160.h
+2. Power mode configuration of the sensor
+3. Get and set functions usage
+4. Reading the sensor read out data
 
 ## Sensors characteristics 
 - #### ADXL355 Accelerometer 
 
 - #### BMG250 Gyroscope 
+
+- 2-3.6V Supply
+- ±250/500/1000/2000°/s configurable range
+- Output Data Rates (ODR) from 12.5 to 800 Hz
+- 16-bit digital output resolution
+- 192 bytes FIFO buffer (32 X/Y/Z samples)
 
 
 - #### ICG20330 Gyroscope 
