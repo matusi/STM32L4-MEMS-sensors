@@ -27,15 +27,7 @@ be able to measure bigger forces. But if its set to 2g the accuracy would be hig
 forces measured is low. To use the accelerometer effectively you must know how high
 forces your object is exposed to.
 
-2.1.6 MEMS pressure sensor
-A pressure sensor is a device equipped with a pressure-sensitive element that measures the
-pressure of a gas or a liquid against a diaphragm made of e.g stainless steel or silicon and
-converts that measurement into an electrical signal as an output.
-Different sensors are used for different measurement targets, such as liquids, gases,
-flammable substances, and corrosive substances. Some sensors measure the absolute
-pressure and those that measure the pressure relative to atmospheric pressure or a specified
-pressure. For sensors that use atmospheric pressure as a reference, some sensors measure
-negative pressures and positive pressures.
+
 
 
 - #### BMG250 Gyroscope 
