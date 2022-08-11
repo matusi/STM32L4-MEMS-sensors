@@ -19,6 +19,24 @@ The Source files contains the implementation for the sensors driver APIs.
 
 ## Sensors characteristics 
 - #### ADXL355 Accelerometer 
+The ADXL355 [4] from Analog Circuits is a low power and low noise accelerometer it
+can be set to measure in the ranges ±2g, ±4g, ±8g and the ADC belonging to the sensor is
+20 − bit. If the IMU is set to measure up to 8g the accuracy wouldnt be high but it would
+be able to measure bigger forces. But if its set to 2g the accuracy would be high but the
+20
+forces measured is low. To use the accelerometer effectively you must know how high
+forces your object is exposed to.
+
+2.1.6 MEMS pressure sensor
+A pressure sensor is a device equipped with a pressure-sensitive element that measures the
+pressure of a gas or a liquid against a diaphragm made of e.g stainless steel or silicon and
+converts that measurement into an electrical signal as an output.
+Different sensors are used for different measurement targets, such as liquids, gases,
+flammable substances, and corrosive substances. Some sensors measure the absolute
+pressure and those that measure the pressure relative to atmospheric pressure or a specified
+pressure. For sensors that use atmospheric pressure as a reference, some sensors measure
+negative pressures and positive pressures.
+
 
 - #### BMG250 Gyroscope 
 
@@ -28,15 +46,25 @@ The Source files contains the implementation for the sensors driver APIs.
 - 16-bit digital output resolution
 - 192 bytes FIFO buffer (32 X/Y/Z samples)
 
+. The BMG250ICG-20330[3] gyroscope from InvenSense can measure with the
+sensitivity of 16.4 LSB ◦/s to 262.4 LSB ◦/s the resolution of the ADC is 16-bit and
+the range is from 125 ◦/s to 2000 ◦/s.
 
 - #### ICG20330 Gyroscope 
-
+The ICG-20330[2] gyroscope from InvenSense can measure with the sensitivity of
+131 LSB ◦/s to 1048 LSB ◦/s the resolution of the ADC is 16-bit and multiple ranges
+of range is from 31.5 ◦/s, 125 ◦/s to 250 ◦/s.
+2
 
 - #### MMCMA Magnetometer
-
+The MMC5983MA[5] can measure magnetic field strength with configurable sensitivity of
+0.25 mG up to 0.0625 mG , has an ADC with a resolution of 16-bit up to 18-bit resolution
+and a full scale range of ±8 G.
 - #### 89BSD Barometer
 
-
+The TE89BSD[6] can measure pressure with a multiple configurable range of 300 mbar
+up to 1200 mba ,has an ADC with a resolution of 24-bit and a sensitivity per LSB of 0.016
+mbar up to 0.11 mbar.
 
 ## Documentations 
 
