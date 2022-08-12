@@ -101,6 +101,7 @@ mbar up to 0.11 mbar.
 
 
 - #### ADXL355 Accelerometer 
+[ ADXL355 product overview](https://www.analog.com/en/products/adxl355.html#product-overview) (datasheet, evaluation board schematic)
 
 - #### BMG250 Gyroscope 
 
