@@ -41,50 +41,37 @@ The Source files contains the implementation for the sensors driver APIs.
 - Output Data Rates (ODR) from 25 to 3200 Hz
 - 16-bit digital output resolution
 - Allocatable FIFO buffer of 1024 bytes
-
-. The BMG250[3] gyroscope from InvenSense can measure with the
-sensitivity of 16.4 LSB ◦/s to 262.4 LSB ◦/s the resolution of the ADC is 16-bit and
-the range is from 125 ◦/s to 2000 ◦/s.
--#### Supported sensor interface
 - BMG250 driver supports SPI and I2C interfaces
-
-
 
 - #### ICG20330 Gyroscope 
 
-- 2-3.6V Supply
-- ±250/500/1000/2000°/s configurable range
-- Output Data Rates (ODR) from 12.5 to 800 Hz
+- 1.71 V to 3.6 V Supply
+- ±31.25/ ±62.5/ ±125 and ±250°/s configurable range
+- Output Data Rates (ODR) from 1000 to 8000 Hz
 - 131 LSB ◦/s to 1048 LSB ◦/s sensitivity 
 - 16-bit digital output resolution
-- 192 bytes FIFO buffer (32 X/Y/Z samples)
-
-
-The ICG-20330[2] gyroscope from InvenSense can measure with the sensitivity of
-131 LSB ◦/s to 1048 LSB ◦/s the resolution of the ADC is 16-bit and multiple ranges
-of range is from 31.5 ◦/s, 125 ◦/s to 250 ◦/s.
-
--#### Supported sensor interface
+- 512 bytes FIFO buffer 
 - ICG-20330 driver supports SPI and I2C interfaces
 
 
 
 
-- #### MMCMA Magnetometer
+- #### MMC5983MA Magnetometer
 
 - 2-3.6V Supply
-- ±250/500/1000/2000°/s configurable range
+-±8/ G. configurable full scale range 
 - Output Data Rates (ODR) from 12.5 to 800 Hz
 - 16-bit digital output resolution
 - 192 bytes FIFO buffer (32 X/Y/Z samples)
 
+- 1.71 V to 3.6 V Supply
+- ±31.25/ ±62.5/ ±125 and ±250°/s configurable range
+- Output Data Rates (ODR) from 1000 to 8000 Hz
+- 0.25 mG up to 0.0625 mG  configurable  sensitivity 
+- 16-bit up to 18-bit digital output resolution
 
-The MMC5983MA[5] can measure magnetic field strength with configurable sensitivity of
-0.25 mG up to 0.0625 mG , has an ADC with a resolution of 16-bit up to 18-bit resolution
-and a full scale range of ±8 G.
-
--#### Supported sensor interface
-- MMC5983MA driver supports SPI and I2C interfaces
+- 512 bytes FIFO buffer 
+- MMC5983MA driver supports SPI and I2C interface
 
 
 - #### 89BSD Barometer
