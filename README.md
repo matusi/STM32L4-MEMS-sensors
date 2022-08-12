@@ -84,9 +84,9 @@ The Source files contains the implementation for the sensors driver APIs.
 
 - #### ICG20330 Gyroscope 
 
- ICG20330 product overview](https://invensense.tdk.com/download-pdf/icg-20330-datasheet/) (datasheet, evaluation board schematic)
+ [ICG20330 product overview](https://invensense.tdk.com/download-pdf/icg-20330-datasheet/) (datasheet)
 - #### MMC5983MA Magnetometer
-[ MMC5983MA product overview](https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf) (datasheet, evaluation board schematic)
+[ MMC5983MA product overview](https://media.digikey.com/pdf/Data%20Sheets/MEMSIC%20PDFs/MMC5983MA_RevA_4-3-19.pdf) (datasheet, schematic)
 
 
 - #### 89BSD Barometer
