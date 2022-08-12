@@ -35,11 +35,12 @@ The Source files contains the implementation for the sensors driver APIs.
 
 - #### BMG250 Gyroscope 
 
-- 2-3.6V Supply
-- ±250/500/1000/2000°/s configurable range
-- Output Data Rates (ODR) from 12.5 to 800 Hz
+- : 1.71V to 3.6VSupply
+- ±125/250/500/1000/2000°/s configurable range
+- 131 LSB ◦/s to 1048 LSB ◦/s sensitivity 
+- Output Data Rates (ODR) from 25 to 3200 Hz
 - 16-bit digital output resolution
-- 192 bytes FIFO buffer (32 X/Y/Z samples)
+- Allocatable FIFO buffer of 1024 bytes
 
 . The BMG250[3] gyroscope from InvenSense can measure with the
 sensitivity of 16.4 LSB ◦/s to 262.4 LSB ◦/s the resolution of the ADC is 16-bit and
@@ -54,6 +55,7 @@ the range is from 125 ◦/s to 2000 ◦/s.
 - 2-3.6V Supply
 - ±250/500/1000/2000°/s configurable range
 - Output Data Rates (ODR) from 12.5 to 800 Hz
+- 131 LSB ◦/s to 1048 LSB ◦/s sensitivity 
 - 16-bit digital output resolution
 - 192 bytes FIFO buffer (32 X/Y/Z samples)
 
