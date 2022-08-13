@@ -101,12 +101,6 @@ typedef struct __attribute__ ((packed)){
 }ADXL355_TS;
 
 
-typedef struct {
-	SPI_HandleTypeDef* adxl_spi;
-	GPIO_TypeDef* CS_GPIO;
-	uint16_t CS_PIN;
-}ADXL_SPI;
-
 /*
  * INITIALISATION
  */
