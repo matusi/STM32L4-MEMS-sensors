@@ -12,10 +12,10 @@ This package contains MEMS sensor driver (sensor API)
 The headers file has the registers address definitions, constants definitions, data types definitions and supported sensor driver calls declarations.
 ### Source files 
 The Source files contains the implementation for the sensors driver APIs.
-1. Initialize the sensor with I2C/SPI communication. 
+1. Initialize the sensor with I2C communication. 
 2. Power mode configuration of the sensor.
 3. Get and set functions usage.
-4. Reading the sensor read out data (SPI and/or I2C bus read and bus write functions). 
+4. Reading the sensor read out data (I2C and/or I2C_DMA bus read and bus write functions). 
 
 ## Sensors characteristics 
 
