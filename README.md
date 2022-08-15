@@ -34,7 +34,7 @@ The Source files contains the implementation for the sensors driver APIs.
 
 - 1.71V to 3.6VSupply
 - ±125/250/500/1000/2000°/s configurable range
-- 131 LSB ◦/s to 1048 LSB ◦/s sensitivity 
+- 16.4 LSB ◦/s to 262.4LSB ◦/s sensitivity 
 - Output Data Rates (ODR) from 25 to 3200 Hz
 - 16-bit digital output resolution
 - Allocatable FIFO buffer of 1024 bytes
