@@ -42,7 +42,7 @@ The Source files contains the implementation for the sensors driver APIs.
 
 - #### ICG20330 Gyroscope 
 
-- 1.71 V to 3.6 V Supply
+- 1.71 V to 3.45 V Supply
 - ±31.25/ ±62.5/ ±125 and ±250°/s configurable range
 - Output Data Rates (ODR) from 1000 to 8000 Hz
 - 131 LSB ◦/s to 1048 LSB ◦/s sensitivity 
